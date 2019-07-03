@@ -1,0 +1,55 @@
+{
+    "name": "lbhurtado/ballot-omr",
+    "description": "Driver-based OMR component for the lbhurtado/ballot package",
+    "keywords": [
+        "lbhurtado",
+        "ballot",
+        "omr"
+    ],
+    "homepage": "https://github.com/lbhurtado/ballot-omr",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lester Hurtado",
+            "email": "lester@hurtado.ph",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.8.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LBHurtado\\BallotOMR\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LBHurtado\\BallotOMR\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LBHurtado\\BallotOMR\\BallotOMRServiceProvider"
+            ],
+            "aliases": {
+                "BallotOMR": "LBHurtado\\BallotOMR\\BallotOMRFacade"
+            }
+        }
+    }
+}
