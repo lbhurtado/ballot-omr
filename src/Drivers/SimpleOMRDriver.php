@@ -2,6 +2,7 @@
 
 namespace LBHurtado\BallotOMR\Drivers;
 
+use Illuminate\Support\Arr;
 use LBHurtado\SimpleOMR\SimpleOMR;
 
 class SimpleOMRDriver extends Driver
@@ -17,8 +18,17 @@ class SimpleOMRDriver extends Driver
         $this->omr = $omr;
     }
 
-    public function process()
+    public function process($image = null)
     {
+        if (!empty($image)) $this->setImage($image);
+
         $this->omr->process($this->getImage());
+    }
+
+    public function getResults()
+    {
+        $result = $this->omr->omr->getResult();
+
+        return Arr::pluck($result, 'markedtargets', 'groupname');
     }
 }
