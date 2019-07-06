@@ -10,4 +10,11 @@ interface BallotOMR
      * @return mixed
      */
     public function process();
+
+    /**
+     * Get results.
+     *
+     * @return array
+     */
+    public function getResults(): array;
 }

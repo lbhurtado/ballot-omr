@@ -18,14 +18,14 @@ class SimpleOMRDriver extends Driver
         $this->omr = $omr;
     }
 
-    public function process($image = null)
+    public function process()
     {
-        if (!empty($image)) $this->setImage($image);
-
         $this->omr->process($this->getImage());
+
+        return $this;
     }
 
-    public function getResults()
+    public function getResults(): array
     {
         $result = $this->omr->omr->getResult();
 

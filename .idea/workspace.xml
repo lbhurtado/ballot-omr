@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39f85ba5-36d4-454f-bae2-257fadfc79bd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contracts/BallotOMR.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contracts/BallotOMR.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Drivers/SimpleOMRDriver.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Drivers/SimpleOMRDriver.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,14 +41,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleOMRDriver.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SimpleOMRDriver.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Drivers/SimpleOMRDriver.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="e#47#74#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BallotOMR.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Contracts/BallotOMR.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -104,7 +112,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/BallotOMR.php" />
-        <option value="$PROJECT_DIR$/src/Contracts/BallotOMR.php" />
         <option value="$PROJECT_DIR$/src/Drivers/SimpleDriver.php" />
         <option value="$PROJECT_DIR$/src/Drivers/Driver.php" />
         <option value="$PROJECT_DIR$/tests/omr.json" />
@@ -120,6 +127,7 @@
         <option value="$PROJECT_DIR$/tests/SimpleOMRDriverTest.php" />
         <option value="$PROJECT_DIR$/tests/SimpleOMRTest.php" />
         <option value="$PROJECT_DIR$/src/Drivers/SimpleOMRDriver.php" />
+        <option value="$PROJECT_DIR$/src/Contracts/BallotOMR.php" />
       </list>
     </option>
   </component>
@@ -245,6 +253,12 @@
               <item name="OMR" type="b2602c69:ProjectViewProjectNode" />
               <item name="OMR" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Contracts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OMR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OMR" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Drivers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -288,18 +302,18 @@
       <option name="presentableId" value="Default" />
       <updated>1562196028287</updated>
       <workItem from="1562196029478" duration="13051000" />
-      <workItem from="1562370050144" duration="7464000" />
+      <workItem from="1562370050144" duration="8260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20515000" />
+    <option name="totallyTimeSpent" value="21311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25946277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25946277" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -308,7 +322,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -392,13 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Contracts/BallotOMR.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -461,16 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BallotOMRManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#39#70#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/lbhurtado/simple-omr/src/SimpleOMR.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -485,13 +482,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BallotOMRManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#39#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Drivers/SimpleOMRDriver.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="e#47#74#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Contracts/BallotOMR.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
         </state>
       </provider>
     </entry>
